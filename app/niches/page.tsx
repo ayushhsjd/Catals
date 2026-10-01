@@ -7,6 +7,7 @@ import { niches } from '@/lib/data'
 
 export const metadata: Metadata = {
   title: 'Niches',
+  alternates: { canonical: '/niches' },
   description:
     'Six specialized niches: agencies & businesses, trading, AI, self-improvement, finance, and digital earning & freelancing.',
 }
@@ -21,7 +22,7 @@ export default function NichesPage() {
             Built around <span className="gold-gradient-text italic">what matters.</span>
           </>
         }
-        intro="CATΛLS builds deep, specialized value across six domains that shape modern life and work. Each niche is a focused world of products and knowledge."
+        intro="CATΛLS builds deep, specialized value across ten focused areas that shape modern life and work. Each niche is a focused world of products and knowledge."
       />
 
       <section className="py-24 md:py-32">

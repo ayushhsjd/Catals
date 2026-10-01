@@ -3,32 +3,41 @@ import { LegalPage } from '@/components/legal-page'
 
 export const metadata: Metadata = {
   title: 'Refund Policy',
-  description: 'The CATΛLS refund policy for digital products.',
+  description: 'The CATΛLS refund and cancellation policy for digital products.',
+  alternates: { canonical: '/refund' },
 }
 
 export default function RefundPage() {
   return (
     <LegalPage
       label="Legal"
-      title="Refund Policy"
+      title="Refund & Cancellation Policy"
       sections={[
         {
           heading: 'Digital products',
           body: [
-            'Because our products are digital and delivered instantly, refunds are considered on a case-by-case basis.',
-            'If you experience an issue with a product, please reach out so we can make it right.',
+            'All CATΛLS products are digital and are delivered instantly or within 24 hours. Because digital files cannot be returned once accessed, all sales are generally final.',
           ],
         },
         {
-          heading: 'Requesting a refund',
+          heading: 'When you can get a refund',
           body: [
-            'To request a refund, contact us with your order details and the reason for your request.',
-            'We aim to review every request fairly and respond promptly.',
+            'We will give a full refund or a replacement if: you were charged but did not receive your product within 48 hours; the file is damaged or cannot be opened and we cannot fix it; or you were charged twice for the same order.',
+            'Refund requests must be made within 7 days of purchase.',
           ],
         },
         {
-          heading: 'Contact',
-          body: ['For refund requests, contact us at querybyayush@gmail.com.'],
+          heading: 'How to request a refund',
+          body: [
+            'Email querybyayush@gmail.com or WhatsApp +91 7903608490 with your name, order or payment ID, and the reason for your request.',
+            'We reply within 2 business days. Approved refunds are sent to your original payment method within 5–7 business days, depending on your bank or payment provider.',
+          ],
+        },
+        {
+          heading: 'Cancellations',
+          body: [
+            'Because products are delivered immediately after payment, orders cannot be cancelled once payment is completed.',
+          ],
         },
       ]}
     />

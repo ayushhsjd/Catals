@@ -20,13 +20,13 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://catals.com'),
+  metadataBase: new URL('https://catals.in'),
   title: {
     default: 'CATΛLS — Build What Matters',
     template: '%s — CATΛLS',
   },
   description:
-    'CATΛLS creates digital products, knowledge, and solutions across six niches — agencies & business, trading, AI, self-improvement, finance, and digital earning. Build what matters.',
+    'CATΛLS creates practical, beginner-friendly digital guides, workbooks, and templates across ten niches — AI, personal finance, freelancing, side hustles, trading psychology, self-improvement, and more. Build what matters.',
   keywords: [
     'CATALS',
     'digital products',
@@ -37,19 +37,19 @@ export const metadata: Metadata = {
     'freelancing',
     'business growth',
   ],
-  generator: 'v0.app',
   openGraph: {
     title: 'CATΛLS — Build What Matters',
     description:
-      'A modern digital company creating valuable products, knowledge, and solutions across six major niches.',
+      'A modern digital company creating valuable products, knowledge, and solutions across ten focused niches.',
     type: 'website',
     siteName: 'CATΛLS',
+    locale: 'en_IN',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'CATΛLS — Build What Matters',
     description:
-      'A modern digital company creating valuable products, knowledge, and solutions across six major niches.',
+      'A modern digital company creating valuable products, knowledge, and solutions across ten focused niches.',
   },
 }
 

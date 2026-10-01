@@ -21,7 +21,7 @@ export const niches: Niche[] = [
       'Practical AI knowledge, earning opportunities, workflows, automation concepts, and productivity systems for people building more leverage into their work.',
     focus: ['AI tools', 'Earning workflows', 'Automation', 'Productivity systems'],
     productCategories: ['AI Earning / Productivity'],
-    image: '/niches/agencies.png',
+    image: '/niches/ai.png',
   },
   {
     id: 'personal-finance',
@@ -33,7 +33,7 @@ export const niches: Niche[] = [
       'Clear financial knowledge, money management, investing education, and wealth-building concepts for making thoughtful long-term decisions.',
     focus: ['Money management', 'Financial literacy', 'Investing basics', 'Wealth building'],
     productCategories: ['Personal Finance'],
-    image: '/niches/trading.png',
+    image: '/niches/finance.png',
   },
   {
     id: 'career-freelancing',
@@ -45,7 +45,7 @@ export const niches: Niche[] = [
       'Practical resources for building valuable skills, finding meaningful work, freelancing with clarity, and creating a career with more independence.',
     focus: ['Career skills', 'Freelancing', 'Remote work', 'Professional growth'],
     productCategories: ['Career / Freelancing'],
-    image: '/niches/ai.png',
+    image: '/niches/digital-earning.png',
   },
   {
     id: 'health-weight-loss',
@@ -57,7 +57,7 @@ export const niches: Niche[] = [
       'Practical, responsible knowledge for building healthier routines, understanding wellness, and making sustainable progress toward personal health goals.',
     focus: ['Healthy routines', 'Nutrition basics', 'Movement', 'Sustainable habits'],
     productCategories: ['Health / Weight Loss'],
-    image: '/niches/self-improvement.png',
+    image: '/products/mindset-and-focus.png',
   },
   {
     id: 'small-business-side-hustles',
@@ -69,7 +69,7 @@ export const niches: Niche[] = [
       'Actionable knowledge for starting small, testing ideas, building useful offers, and creating sustainable side income without unnecessary complexity.',
     focus: ['Business ideas', 'Offer creation', 'Simple systems', 'Growth basics'],
     productCategories: ['Small Business / Side Hustles'],
-    image: '/niches/finance.png',
+    image: '/niches/agencies.png',
   },
   {
     id: 'trading-investing-psychology',
@@ -81,7 +81,7 @@ export const niches: Niche[] = [
       'Structured education around market thinking, investing principles, risk management, emotional discipline, and the psychology behind better financial decisions.',
     focus: ['Market structure', 'Risk management', 'Investing principles', 'Trading psychology'],
     productCategories: ['Trading / Investing Psychology'],
-    image: '/niches/digital-earning.png',
+    image: '/niches/trading.png',
   },
   {
     id: 'exam-prep-skill-learning',
@@ -92,7 +92,7 @@ export const niches: Niche[] = [
     description: 'Clear learning resources, study systems, and skill-building frameworks for people committed to meaningful progress.',
     focus: ['Study systems', 'Exam preparation', 'Skill development', 'Learning habits'],
     productCategories: ['Exam Prep / Skill Learning'],
-    image: '/niches/ai.png',
+    image: '/products/ai-productivity-system.png',
   },
   {
     id: 'parenting-child-education',
@@ -103,7 +103,7 @@ export const niches: Niche[] = [
     description: 'Practical, age-aware resources for supporting children, strengthening learning, and navigating parenting with patience and clarity.',
     focus: ['Parenting tools', 'Child learning', 'Communication', 'Family routines'],
     productCategories: ['Parenting / Child Education'],
-    image: '/niches/self-improvement.png',
+    image: '/products/financial-literacy-foundations.png',
   },
   {
     id: 'relationships-communication',
@@ -114,7 +114,7 @@ export const niches: Niche[] = [
     description: 'Useful frameworks for clearer communication, healthier relationships, emotional awareness, and more intentional connection.',
     focus: ['Communication', 'Boundaries', 'Emotional awareness', 'Connection'],
     productCategories: ['Relationships / Communication'],
-    image: '/niches/finance.png',
+    image: '/products/risk-and-psychology.png',
   },
   {
     id: 'self-improvement-productivity',
@@ -125,7 +125,7 @@ export const niches: Niche[] = [
     description: 'Practical systems for building discipline, improving focus, creating better habits, and becoming more capable over time.',
     focus: ['Discipline', 'Mindset', 'Habits', 'Personal performance'],
     productCategories: ['Self-Improvement / Productivity'],
-    image: '/niches/trading.png',
+    image: '/niches/self-improvement.png',
   },
 ]
 
@@ -187,7 +187,7 @@ export const whyCatals = [
   },
   {
     title: 'Multiple Specialized Niches',
-    description: 'Deep focus across six domains that matter for modern life and work.',
+    description: 'Deep focus across ten areas that matter for modern life and work.',
   },
   {
     title: 'Continuous Improvement',

@@ -7,6 +7,7 @@ import { FinalCta } from '@/components/final-cta'
 
 export const metadata: Metadata = {
   title: 'About',
+  alternates: { canonical: '/about' },
   description:
     'CATΛLS is building for the long term — a large ecosystem around knowledge, digital products, business, technology, finance, creativity, and innovation.',
 }

@@ -3,23 +3,23 @@ import { SectionLabel } from '@/components/section-label'
 
 const reviewImages = [
   {
-    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260804_190502_765-eK72k53hPeH6HN8Zj6ILwFSCDltw9l.jpg',
+    src: '/reviews/review-1.jpg',
     alt: 'Customer WhatsApp message praising the structured outreach workbook and practical lead-generation system',
   },
   {
-    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot_20260804-103333-Dx5nXHdygzbvKXbol4b1dcjmCcUQl7.png',
+    src: '/reviews/review-2.jpg',
     alt: 'WhatsApp conversation showing positive feedback about the workbook',
   },
   {
-    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260804_190506_806-oih03n66tS1gM7AAKEqb4Rg4lI9L7R.jpg',
+    src: '/reviews/review-3.jpg',
     alt: 'Customer message describing the workbook as professional, structured, and useful for outreach',
   },
   {
-    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260804_190517_178-oR9vsoo5gGTcdFKRHnga9c2BDgQIJ7.jpg',
+    src: '/reviews/review-4.jpg',
     alt: 'WhatsApp conversation with positive feedback about implementing the workbook',
   },
   {
-    src: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_20260804_190513_025-6UtNJUsjJ1ImET1MU3VwloQ5Dr3AgF.jpg',
+    src: '/reviews/review-5.jpg',
     alt: 'Customer message saying the workbook was helpful and the work was done well',
   },
 ]
