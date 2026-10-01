@@ -2,12 +2,14 @@ import Link from 'next/link'
 import { Wordmark } from '@/components/wordmark'
 import { nav, niches } from '@/lib/data'
 
+// Add your real profile links here (e.g. 'https://instagram.com/yourhandle').
+// Entries with an empty href are hidden automatically.
 const social = [
-  { label: 'Instagram', href: '#' },
-  { label: 'X / Twitter', href: '#' },
-  { label: 'LinkedIn', href: '#' },
-  { label: 'YouTube', href: '#' },
-]
+  { label: 'Instagram', href: '' },
+  { label: 'X / Twitter', href: '' },
+  { label: 'LinkedIn', href: '' },
+  { label: 'YouTube', href: '' },
+].filter((s) => s.href)
 
 const legal = [
   { label: 'Privacy Policy', href: '/privacy' },
@@ -25,7 +27,7 @@ export function SiteFooter() {
             <p className="mt-4 font-serif text-2xl italic text-ivory/90">Build what matters.</p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               A modern digital company creating valuable products, knowledge, and solutions across
-              six major niches.
+              ten focused niches.
             </p>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ivory/80">
               Want the solution for your most important challenges and problems?

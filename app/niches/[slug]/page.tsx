@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params
   const niche = getNiche(slug)
   if (!niche) return {}
-  return { title: niche.name, description: niche.description }
+  return { title: niche.name, description: niche.description, alternates: { canonical: `/niches/${niche.slug}` } }
 }
 
 export default async function NicheDetailPage({ params }: { params: Promise<{ slug: string }> }) {

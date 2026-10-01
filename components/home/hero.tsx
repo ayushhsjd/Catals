@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { ArrowRight, ArrowDown } from 'lucide-react'
+import { ArrowRight } from 'lucide-react'
 import { SectionLabel } from '@/components/section-label'
 
 export function Hero() {
@@ -26,8 +26,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground md:text-xl">
-            We create digital products, knowledge, and solutions designed to help people and
-            businesses learn, grow, and move forward.
+            Practical, beginner-friendly guides, workbooks, and templates that help you earn,
+            learn, and grow — with clear steps you can act on today.
           </p>
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -35,15 +35,17 @@ export function Hero() {
               href="/niches"
               className="group inline-flex items-center justify-center gap-2 bg-gold px-8 py-4 text-xs font-medium uppercase tracking-[0.18em] text-obsidian transition-colors hover:bg-gold-soft"
             >
-              Explore Our World
+              Explore Our Niches
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
             <a
-              href="#niches"
+              href="https://wa.me/917903608490?text=Hi%20CAT%CE%9BLS%2C%20I%27d%20like%20to%20know%20more%20about%20your%20guides."
+              target="_blank"
+              rel="noreferrer"
               className="group inline-flex items-center justify-center gap-2 border border-border px-8 py-4 text-xs font-medium uppercase tracking-[0.18em] text-ivory transition-colors hover:border-gold/50"
             >
-              Discover Our Niches
-              <ArrowDown className="h-4 w-4 transition-transform group-hover:translate-y-1" />
+              Ask on WhatsApp
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </a>
           </div>
         </div>

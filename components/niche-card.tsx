@@ -12,7 +12,7 @@ export function NicheCard({ niche }: { niche: Niche }) {
       <div className="relative aspect-[16/10] overflow-hidden">
         <Image
           src={niche.image || '/placeholder.svg'}
-          alt=""
+          alt={`${niche.name} — CATΛLS`}
           fill
           sizes="(max-width: 768px) 100vw, 33vw"
           className="object-cover opacity-70 transition-all duration-700 group-hover:scale-105 group-hover:opacity-90"

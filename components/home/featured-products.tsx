@@ -12,7 +12,7 @@ export function FeaturedProducts() {
             Your solution starts with a conversation.
           </h2>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            If you are looking for a focused solution, practical knowledge, or a digital resource for one of our six niches, contact CATΛLS and tell us what matters to you.
+            If you are looking for a focused solution, practical knowledge, or a digital resource for one of our ten niches, contact CATΛLS and tell us what matters to you.
           </p>
         </div>
         <div className="border border-gold/30 bg-obsidian p-7 md:p-9">

@@ -28,7 +28,7 @@ export function LegalPage({
               </div>
             ))}
             <p className="border-t border-border pt-8 text-sm text-muted-foreground/70">
-              This document is a general template and should be reviewed before public use.
+              Last updated: October 2026. Questions? Email querybyayush@gmail.com or WhatsApp +91 7903608490.
             </p>
           </div>
         </div>

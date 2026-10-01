@@ -7,6 +7,7 @@ import { solutions } from '@/lib/data'
 
 export const metadata: Metadata = {
   title: 'Solutions',
+  alternates: { canonical: '/solutions' },
   description:
     'CATΛLS creates practical digital products and knowledge-based solutions built around real needs — across business, trading, AI, self-improvement, finance, and digital earning.',
 }
