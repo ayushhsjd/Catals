@@ -5,9 +5,8 @@ import { nav, niches } from '@/lib/data'
 // Add your real profile links here (e.g. 'https://instagram.com/yourhandle').
 // Entries with an empty href are hidden automatically.
 const social = [
-  { label: 'Instagram', href: '' },
+  { label: 'Instagram', href: 'https://www.instagram.com/catals.in/' },
   { label: 'X / Twitter', href: '' },
-  { label: 'LinkedIn', href: '' },
   { label: 'YouTube', href: '' },
 ].filter((s) => s.href)
 
